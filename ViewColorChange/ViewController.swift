@@ -17,17 +17,20 @@ class ViewController: UIViewController {
     
     @IBAction func RedButton(_ sender: Any) {
         //RedView.backgroundColor = UIColor.white
-        RedView.isHidden = true
+        //RedView.isHidden = true
+        RedView.alpha = 0.5
     }
     
     @IBAction func BlueButton(_ sender: Any) {
         //BlueView.backgroundColor = UIColor.white
-        BlueView.isHidden = true
+        //BlueView.isHidden = true
+        BlueView.alpha = 0.5
     }
     
     @IBAction func GreenButton(_ sender: Any) {
         //GreenView.backgroundColor = UIColor.white
-        GreenView.isHidden = true
+        //GreenView.isHidden = true
+        GreenView.alpha = 0.5
     }
     
     override func viewDidLoad() {
